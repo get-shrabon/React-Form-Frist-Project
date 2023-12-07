@@ -1,5 +1,5 @@
 import './App.css'
-import Forms from './Components/Forms/Forms'
+import SimpleForm from './Components/SimpleForm/SimpleForm'
 
 function App() {
 
@@ -7,7 +7,8 @@ function App() {
     <>
       
       <h2>React Form Submited Project</h2>
-      <Forms></Forms>
+      {/* <Forms></Forms> */}
+      <SimpleForm></SimpleForm>
     </>
   )
 }

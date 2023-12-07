@@ -40,3 +40,22 @@
 .read-the-docs {
   color: #888;
 }
+input[type=submit]{
+  border: 1px solid tomato;
+  padding: 7px 20px;
+  border-radius: 5px;
+  margin-top: 10px;
+  cursor: pointer;
+  background-image: linear-gradient(rgb(68, 64, 64), rgb(53, 20, 20));
+  font-weight: 600;
+  width: fit-content;
+  font-size: 20px;
+  height: auto;
+  font-family: cursive;
+}
+input{
+  width: 500px;
+  height: 30px;
+  margin-top: 10px;
+  border: 1px solid tomato;
+}
