@@ -60,3 +60,15 @@ input{
   margin-top: 10px;
   border: 1px solid tomato;
 }
+
+img{
+  border-radius: 50%;
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  box-shadow: 1px 1px 1px 5px green;
+  transition: .4s all;
+}
+img:hover{
+  transform: rotate(360deg);
+}
